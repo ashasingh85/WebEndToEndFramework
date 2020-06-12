@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45352" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:32:23Z">
+    <groups>
+    </groups>
+    <test name="ValidateTitleTest" duration-ms="18715" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:31:56Z">
+      <class name="com.testcases.validateTitle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.validateTitle@5ba3f27a]" name="setUp" is-config="true" duration-ms="18359" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assertTitle()[pri:0, instance:com.testcases.validateTitle@5ba3f27a]" name="assertTitle" duration-ms="135" started-at="2020-06-11T03:31:56Z" finished-at="2020-06-11T03:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.validateTitle@5ba3f27a]" name="tearDown" is-config="true" duration-ms="190" started-at="2020-06-11T03:31:56Z" finished-at="2020-06-11T03:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.validateTitle -->
+    </test> <!-- ValidateTitleTest -->
+    <test name="SelectByItemTest" duration-ms="22459" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:32:00Z">
+      <class name="com.testcases.SelectByItems">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.SelectByItems@f5acb9d]" name="setUp" is-config="true" duration-ms="18181" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getItemNavigation()[pri:0, instance:com.testcases.SelectByItems@f5acb9d]" name="getItemNavigation" duration-ms="117" started-at="2020-06-11T03:31:56Z" finished-at="2020-06-11T03:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.SelectByItems@f5acb9d]" name="tearDown" is-config="true" duration-ms="4117" started-at="2020-06-11T03:31:56Z" finished-at="2020-06-11T03:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SelectByItems -->
+    </test> <!-- SelectByItemTest -->
+    <test name="LoginTest" duration-ms="44129" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:32:22Z">
+      <class name="com.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginTest@5562c41e]" name="setUp" is-config="true" duration-ms="20782" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDetails(java.lang.String, java.lang.String)[pri:0, instance:com.testcases.LoginTest@5562c41e]" name="loginDetails" duration-ms="4079" started-at="2020-06-11T03:31:59Z" data-provider="multipleUsers" finished-at="2020-06-11T03:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[singh.asha85@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwd@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginTest@5562c41e]" name="tearDown" is-config="true" duration-ms="55" started-at="2020-06-11T03:32:03Z" finished-at="2020-06-11T03:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginTest@5562c41e]" name="setUp" is-config="true" duration-ms="15150" started-at="2020-06-11T03:32:03Z" finished-at="2020-06-11T03:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDetails(java.lang.String, java.lang.String)[pri:0, instance:com.testcases.LoginTest@5562c41e]" name="loginDetails" duration-ms="3956" started-at="2020-06-11T03:32:18Z" data-provider="multipleUsers" finished-at="2020-06-11T03:32:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginTest@5562c41e]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-06-11T03:32:22Z" finished-at="2020-06-11T03:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="HomePageTest" duration-ms="45344" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:32:23Z">
+      <class name="com.testcases.HomePageTest">
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:com.testcases.HomePageTest@bae7dc0]" name="launchURL" is-config="true" duration-ms="19279" started-at="2020-06-11T03:31:38Z" finished-at="2020-06-11T03:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="correctPasswordTest()[pri:1, instance:com.testcases.HomePageTest@bae7dc0]" name="correctPasswordTest" duration-ms="3977" started-at="2020-06-11T03:31:57Z" finished-at="2020-06-11T03:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testcases.HomePageTest@bae7dc0]" name="closeBrowser" is-config="true" duration-ms="93" started-at="2020-06-11T03:32:01Z" finished-at="2020-06-11T03:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:com.testcases.HomePageTest@bae7dc0]" name="launchURL" is-config="true" duration-ms="15533" started-at="2020-06-11T03:32:01Z" finished-at="2020-06-11T03:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="forgotPasswordTest()[pri:2, instance:com.testcases.HomePageTest@bae7dc0]" name="forgotPasswordTest" duration-ms="6310" started-at="2020-06-11T03:32:17Z" finished-at="2020-06-11T03:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testcases.HomePageTest@bae7dc0]" name="closeBrowser" is-config="true" duration-ms="120" started-at="2020-06-11T03:32:23Z" finished-at="2020-06-11T03:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testcases.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Suite -->
+</testng-results>

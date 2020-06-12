@@ -1,0 +1,6 @@
+15:46:39.943 [TestNG-tests-1] INFO  com.resources.Browser - Driver is initialized
+15:58:31.845 [TestNG-tests-1] INFO  com.resources.Browser - Driver is initialized
+15:58:32.262 [TestNG-tests-4] ERROR com.selenium.testcases.HomePageTest - Driver is initialized
+15:58:32.314 [TestNG-tests-2] INFO  com.resources.Browser - Driver is initialized
+16:01:37.692 [main] ERROR com.selenium.testcases.HomePageTest - Driver is initialized
+16:03:02.874 [main] ERROR com.selenium.testcases.HomePageTest - Driver is initialized

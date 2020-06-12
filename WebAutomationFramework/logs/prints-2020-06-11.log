@@ -1,0 +1,6 @@
+13:31:56.775 [TestNG-tests-3] ERROR com.testcases.validateTitle - Assertion failed for text validation
+13:32:01.546 [TestNG-tests-4] INFO  com.testcases.HomePageTest - User credentails have been verified
+13:32:03.151 [TestNG-tests-1] INFO  com.testcases.LoginTest - Test run with multiple sets of data
+13:32:06.987 [TestNG-tests-4] INFO  com.testcases.HomePageTest - Driver is initialized
+13:32:08.556 [TestNG-tests-1] INFO  com.testcases.LoginTest - Driver is initialized
+13:32:22.314 [TestNG-tests-1] INFO  com.testcases.LoginTest - Test run with multiple sets of data
